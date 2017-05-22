@@ -1,6 +1,13 @@
-.navbar {
-  background-color: rgb(0, 0, 0);
+body {
+    font-family: Lora,'Times New Roman',serif;
+    font-size: 20px;
+    -webkit-tap-highlight-color: #0085A1;
 }
+body {
+    color: #333;
+  }
+
+
 
 .intro-header {
   background-image: url('/Users/michele/lambda/homework2/resources/images/post-bg.jpg');
@@ -14,9 +21,34 @@ a {
 }
 .header {
   color: white;
-  padding: 100px;
 }
 .header h1 {
   font-size: 55px;
   font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.container {
+padding:100px 150px 0 150px;
+}
+
+.main p {
+  font-size: 20px;
+  margin-top: 30px;
+}
+.main a {
+  color: black;
+  text-decoration: underline;
+}
+blockquote {
+  margin-top: 40px;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 35px;
+  padding-top: 40px;
+  font-weight: bold;
+}
+figcaption {
+  font-size: 16px;
+  font-style: italic;
 }
